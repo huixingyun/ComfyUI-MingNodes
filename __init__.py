@@ -13,7 +13,7 @@ NODE_CLASS_MAPPINGS = {
     "ConvertGrayChannelNode": ConvertGrayChannelNode,
     "AdjustBrightnessContrastSaturationNode": AdjustBrightnessContrastSaturationNode,
     "BaiduTranslateNode": BaiduTranslateNode,
-    "AddWaterMarkNode": AddWaterMarkNode,
+    "MingAddWaterMarkNode": AddWaterMarkNode,
     "LightShapeNode": LightShapeNode,
     "ImitationHueNode": ImitationHueNode,
     "HighlightShadowBrightnessNode": HighlightShadowBrightnessNode,
