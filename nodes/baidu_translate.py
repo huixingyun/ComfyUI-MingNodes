@@ -33,6 +33,14 @@ class BaiduTranslateNode:
             }
         }
 
+    @classmethod
+    def VALIDATE_INPUTS(cls, baidu_appid, baidu_appkey):
+        if not baidu_appid or baidu_appid.strip() == "":
+            return "Baidu AppID cannot be empty"
+        if not baidu_appkey or baidu_appkey.strip() == "":
+            return "Baidu AppKey cannot be empty"
+        return True
+
     CATEGORY = "MingNodes/Translate"
 
     RETURN_TYPES = ("STRING",)
